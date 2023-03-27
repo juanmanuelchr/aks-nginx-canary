@@ -6,7 +6,7 @@ metadata:
     nginx.ingress.kubernetes.io/canary: "true"
     nginx.ingress.kubernetes.io/canary-by-header: "x-region"
     nginx.ingress.kubernetes.io/canary-by-header-value: "us-east"
-  name: ingress-echo-canary
+  name: ingress-echo-canary-header
 spec:
   ingressClassName: nginx
   rules:
