@@ -13,7 +13,7 @@ NGINX Ingress Controller uses the following annotations to enable canary deploym
 - nginx.ingress.kubernetes.io/canary-by-cookie
 - nginx.ingress.kubernetes.io/canary-weight
 
-Canary deployment use cases implemented in this tutorial:
+Canary deployment use cases cover in this tutorial:
 
 1. By HTTP request header.
 2. By HTTP cookie value.
